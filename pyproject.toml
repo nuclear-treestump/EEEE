@@ -1,0 +1,18 @@
+[project]
+name = "pdgeeee"
+version = "0.1.0"
+description = "Secure memory abstraction for Windows, Linux, and macOS"
+authors = [
+  { name = "0xIkari", email = "zachary@zachary-miller.com" }
+]
+requires-python = ">=3.12"
+readme = "README.md"
+license = { text = "MIT" }
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["pdgeeee*"]
+
+[build-system]
+requires = ["setuptools>=80.9"]
+build-backend = "setuptools.build_meta"
